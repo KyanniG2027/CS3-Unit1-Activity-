@@ -1,5 +1,6 @@
 def main():
     print("Penne Alla Vodka Receipe")
+    make_sauce()
 
 def make_sauce():
     print("first grab your tomato paste, heavy cream, onions, and garlic")
