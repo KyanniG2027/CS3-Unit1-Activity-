@@ -1,6 +1,9 @@
 def main():
     print("Penne Alla Vodka Receipe")
     make_sauce()
+    main_step()
+    cook_recipe()
+      
 
 def make_sauce():
     print("first grab your tomato paste, heavy cream, onions, and garlic")
@@ -12,11 +15,18 @@ def main_step():
 
 
 def list_steps(main_step, second_step):
-    print(f"main Ingredient: {main_step}")
-    print(f"main Ingredient: {second_step}")
+    print(f"Vodka Sauce: {main_step}")
+    print(f"Pasta: {second_step}")
 
+def start_dish(tomato paste, heavy cream):
+    return f"{tomato paste} and {heavy cream} Surprise you have your sauce!"
 
-
+def cook_recipe():
+    boil_water()
+    list_ingredients("Pasta, onions, heavy cream, garlic, vodka, pasta water")
+    dish = make_dish("Pasta")
+    print("Penne Alla Vodka:", dish)
+    
 
 
 
